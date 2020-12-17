@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "ram-guards.resource-server",
+      "type": "com.ibm.ram.guards.resourceserver.starter.RamGuardsResourceServerProperties",
+      "sourceType": "com.ibm.ram.guards.resourceserver.starter.RamGuardsResourceServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ram-guards.resource-server.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ram.guards.resourceserver.starter.RamGuardsResourceServerProperties"
+    },
+    {
+      "name": "ram-guards.resource-server.client-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ram.guards.resourceserver.starter.RamGuardsResourceServerProperties"
+    },
+    {
+      "name": "ram-guards.resource-server.system-partners",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.ibm.ram.guards.resourceserver.starter.RamGuardsResourceServerProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,38 @@
+server:
+  port: 8766
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  application:
+    name: service-authorize
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+logging:
+  level:
+    root: debug
+
+ram-guards:
+  authorization-server:
+    client-id: danube-zuul
+    client-secret: LwitblTK4KgOInkWh/0bpsFjdxdM8sguAVtA0eLG0fI=
+    default-password: default-password
+    token-ttl: 3600
+    enable-redis-cache: true
+    system-partners:
+      - OWNiNzU1OTctMzAwOC00
+    esw-provider:
+      enabled: true
+#      url: https://localhost/software/shopzseries/ramwebservices/rest/userrole/
+      url: https://lb.esw.origins.ibm.net/software/shopzseries/ramwebservices/rest/userrole/
+#      url: https://pdydallmsdr01.podc.sl.edst.ibm.com/software/shopzseries/ramwebservices/rest/userrole/
+      username: shopzuser@cn.ibm.com
+      password: 9x4jVc53WBYs6/ChxcUT2h5yEApOGPhicU8JHPeYqMs=
+      application-id: 3
+      system-partner-function-id:
+        OWNiNzU1OTctMzAwOC00: yunjiez@cn.ibm.com
+

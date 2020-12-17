@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "ibm-id.resource-server",
+      "type": "com.ibm.ibmid.resourceserver.starter.IbmIdResourceServerProperties",
+      "sourceType": "com.ibm.ibmid.resourceserver.starter.IbmIdResourceServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ibm-id.resource-server.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ibmid.resourceserver.starter.IbmIdResourceServerProperties"
+    },
+    {
+      "name": "ibm-id.resource-server.client-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ibmid.resourceserver.starter.IbmIdResourceServerProperties"
+    },
+    {
+      "name": "ibm-id.resource-server.jwk-certificate-path",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ibmid.resourceserver.starter.IbmIdResourceServerProperties"
+    },
+    {
+      "name": "ibm-id.resource-server.system-partners",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.ibm.ibmid.resourceserver.starter.IbmIdResourceServerProperties"
+    },
+    {
+      "name": "ibm-id.resource-server.token-introspection-endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ibmid.resourceserver.starter.IbmIdResourceServerProperties"
+    }
+  ],
+  "hints": []
+}

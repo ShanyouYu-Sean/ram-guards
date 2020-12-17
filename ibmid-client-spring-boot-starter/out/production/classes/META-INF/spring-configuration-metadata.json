@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "ibm-id.client",
+      "type": "com.ibm.ibmid.client.starter.IbmIdClientProperties",
+      "sourceType": "com.ibm.ibmid.client.starter.IbmIdClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ibm-id.client.authorization-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ibmid.client.starter.IbmIdClientProperties"
+    },
+    {
+      "name": "ibm-id.client.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ibmid.client.starter.IbmIdClientProperties"
+    },
+    {
+      "name": "ibm-id.client.client-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ibmid.client.starter.IbmIdClientProperties"
+    },
+    {
+      "name": "ibm-id.client.jwk-certificate-path",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ibmid.client.starter.IbmIdClientProperties"
+    },
+    {
+      "name": "ibm-id.client.redirect-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ibmid.client.starter.IbmIdClientProperties"
+    },
+    {
+      "name": "ibm-id.client.token-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ibmid.client.starter.IbmIdClientProperties"
+    }
+  ],
+  "hints": []
+}

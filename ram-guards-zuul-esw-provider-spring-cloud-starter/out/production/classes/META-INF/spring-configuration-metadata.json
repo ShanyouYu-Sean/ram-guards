@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "ram-guards.authorization-server",
+      "type": "com.ibm.ram.guards.zuul.esw.provider.starter.RamGuardsAuthorizationServerProperties",
+      "sourceType": "com.ibm.ram.guards.zuul.esw.provider.starter.RamGuardsAuthorizationServerProperties"
+    },
+    {
+      "name": "ram-guards.zuul",
+      "type": "com.ibm.ram.guards.zuul.esw.provider.starter.RamGuardsEswProviderZuulProperties",
+      "sourceType": "com.ibm.ram.guards.zuul.esw.provider.starter.RamGuardsEswProviderZuulProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ram-guards.authorization-server.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ram.guards.zuul.esw.provider.starter.RamGuardsAuthorizationServerProperties"
+    },
+    {
+      "name": "ram-guards.authorization-server.client-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ram.guards.zuul.esw.provider.starter.RamGuardsAuthorizationServerProperties"
+    },
+    {
+      "name": "ram-guards.authorization-server.default-password",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ram.guards.zuul.esw.provider.starter.RamGuardsAuthorizationServerProperties"
+    },
+    {
+      "name": "ram-guards.zuul.authorization-server-service-id",
+      "type": "java.lang.String",
+      "sourceType": "com.ibm.ram.guards.zuul.esw.provider.starter.RamGuardsEswProviderZuulProperties"
+    }
+  ],
+  "hints": []
+}
